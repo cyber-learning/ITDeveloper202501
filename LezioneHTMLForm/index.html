@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+
+    </head>
+    <body>
+        <h1>Instagram</h1>
+
+        <img src="https://picsum.photos/id/1/400/300" alt="">
+
+        <!-- enconding type -->
+        <form action="/signup.html" method="get">
+
+            <label for="firstnameInput">Inserisci il tuo nome</label>
+            <input id="firstnameInput" type="text" name="firstname">
+
+            <label for="lastnameInput">Insersci il tuo cognome</label>
+            <input id="lastnameInput" type="text" name="lastname" >
+
+            <!--
+            <label for="maleRadio">Uomo</label>
+            <input id="maleRadio" type="radio" name="gender" value="male">
+
+            <label for="femaleRadio">Donna</label>
+            <input id="femaleRadio" type="radio" name="gender" value="female">
+            -->
+
+            <label for="genderSelect">Gender</label>
+            <select id="genderSelect" name="gender">
+                <option value="" selected>Scegli</option>
+                <option value="male">Uomo</option>
+                <option value="female">Donna</option>
+            </select>
+
+            <label for="aboutMeTextarea">Parlaci di te</label>
+            <textarea id="aboutMeTextarea" name="about-me"></textarea>
+
+            <label for="termsAndConditionsInput">Accetti termini e condizioni</label>
+            <input id="termsAndConditionsInput" type="checkbox" name="termsAndConditions" value="true">
+
+            <!-- <input type="submit" value="Iscriviti"> -->
+            <button>Iscriviti</button>
+        </form>
+    </body>
+</html>
