@@ -1,0 +1,83 @@
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+
+    /*
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+
+    border: 2px solid blue;
+    border-radius: 12px;
+    box-shadow: 4px 8px 24px 0px rgba(0, 0, 0, 0.4);
+    */
+
+    
+    /*
+    padding-top: 48px;
+    padding-right: 12px;
+    padding-bottom: 24px;
+    padding-left: 64px;
+
+    shorthand
+    padding: 48px 12px 24px 64px;
+    padding: 48px 24px; y x
+    padding: 48px;
+    */
+
+    margin: 24px 0px;
+
+    border: 10px solid blue;
+
+    padding: 0px 64px;
+    width: 100%;
+
+    background-color: red;
+}
+
+
+
+/* p {
+    color: red;
+    color: blue;
+} */
+
+
+/*
+p {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+*/
+
+/*
+p {
+    background-color: yellow;
+    color: red;
+}
+
+p {
+    color: blue;
+}
+*/
+
+
+/*
+p {
+    color: blue;
+}
+
+.red-text {
+    color: red;
+}
+*/

@@ -140,7 +140,16 @@ Questa pagina deve presentare una form che richieda le seguenti informazioni:
 - chef stellato?
 - accetti termini e condizioni?
 
+# Esercizio - Immagini cliccabili
+
+
 
 
 Per commentare rapidamente:
 alt + shift + a
+
+
+
+
+
+
