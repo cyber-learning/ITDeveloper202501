@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #0e86ef;
+    --accent-color: #ff9800;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+
+    width: 50%;
+    background-color: red;
+}
+
+.card-img {
+    display: block;
+    width: 100%;
+}
