@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e7e6e6;
+}
+
+aside {
+    background-color: white;
+}
+
+main {
+    padding: 24px;
+}
+
+article {
+    margin-bottom: 24px;
+    padding: 24px;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+
+    .col-sm-8 {
+        width: calc(8 / 12 * 100%);
+    }
+
+    .col-sm-4 {
+        width: calc(4 / 12 * 100%);
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .post {
+        width: 50%;
+    }
+}

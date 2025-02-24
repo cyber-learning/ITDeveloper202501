@@ -1,3 +1,4 @@
+/************************** da XS in su **************************/
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -19,9 +20,8 @@
     width: calc(12 / 12 * 100%);
 }
 
-/* a partire da una viewport width di 576px in su */
-/* breakpoint = punto di rottura del layout */
-/* da sm in su */
+
+/************************** da SM in su **************************/
 @media screen and (min-width: 576px) {
     
     .col-sm-3 {
@@ -75,6 +75,11 @@
 
 @media screen and (min-width: 1200px) {
 
+    /* .justify-content-xl-center {
+        justify-content: center;
+    } */
+
+    
 }
 
 @media screen and (min-width: 1400px) {
