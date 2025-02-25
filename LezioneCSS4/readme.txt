@@ -27,10 +27,39 @@ Creare un bottoncino rotondo chiamato Floating Action Button da posizionare in b
 Creare un modal posizionato al centro della viewport su sfondo nero in trasparenza.
 
 
+# Esercizio - Instagram Layout
+Creare un layout simile a quello di instagram rispettando i principi del responsive design con un approccio mobile first.
+
+Creare la navbar e l'aside fixed rispetto alla viewport
+Crea il main composto da post.
+
+Attenzione:
+- l'aside è presente solamente nella versione desktop! Nella versione mobile non è visibile!
+- la navbar contiene un input per la ricerca solo nella versione desktop. Nella versione mobile non è visibile!
+
+Consiglio: vi ricordo di strutturare il layout come se fosse una matrioska stilizzando prima ciò che è esterno per poi stilizzare ciò che è interno (prima il contenitore e poi il contenuto)
 
 
 
+
+
+
+
+
+
+
+pseudo-elementi
 z-index, max-width e min-width
+
+
+
+
+
+
+
+
+
+
 
 
 
